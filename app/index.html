@@ -21,10 +21,9 @@
     </div>
 </nav>
 
-<div class="container">
 
 <div class="row" ng-controller="markdownController">
-    <div class="col s6">
+    <div class="col s4">
         <form class="col s12">
             <div class="row">
                 <div class="input-field col s12">
@@ -34,11 +33,11 @@
             </div>
         </form>
     </div>
-    <div class="col s6 flow-text" ng-bind-html="result" >  </div>
+    <div class="col s4 flow-text">{{result}}  </div>
+    <div class="col s4 flow-text" ng-bind-html="result" >  </div>
 
 </div>
 
-</div>
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/materialize/bin/materialize.js"></script>
